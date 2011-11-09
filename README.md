@@ -7,9 +7,10 @@ The __delimiters__ will be:
 * __Thing Class__
   * __User__ (Someone who logs in to makes or breaks Allocations of Things.  May also be a Thing [see below].)
   * __Thing__ (Something that can be allocated: a person, object, room, cyberspace location, body of knowledge, etc.)
-  * __Space__ (Somewhere to which a thing can be allocated: a place albeit physical, cyber, imaginary, etc.  May also be a Thing.)
   * __Time__ (Some finite time when the allocation begins and ends)
+  * __Space__ (Somewhere to which a thing can be allocated: a place albeit physical, cyber, imaginary, etc.  May also be a Thing.)
 * __Relationships__
+  * __Allocation__ (Tying a Thing to a Time and Space)
   * __Privilege__ (Some restriction placed on a User with regard to Things or Categories [see below])
   * __Category__ (Some groupings of Things)
   * __Preference__ (Some rankings of Things or Categories)
