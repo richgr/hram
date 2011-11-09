@@ -1,5 +1,12 @@
 .bundle
-db/*.sqlite3
 log/*.log
+*.log
+/tmp/
 tmp/
 .sass-cache/
+*.swp
+*~
+.project
+.DS_Store
+bin/
+public/assets/*
