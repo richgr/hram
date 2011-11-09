@@ -2,22 +2,22 @@
 
 ## VIEWS
 ----
-Index
-Show (show available and booked bookings)
-New (blank entry)
-Edit
+* Index
+* Show (show available and booked bookings)
+* New (blank entry)
+* Edit
 
 
 
 ## ACTIONS
 ----
-Index (show all listings page)
-Show (show the specific listing page)
-New (show the NEW page)
-Create (accept the NEW submission and save it)
-Edit (show the EDIT page)
-Update (accept the EDITed submission and save it)
-Destroy (do the delete)
+* Index (show all listings page)
+* Show (show the specific listing page)
+* New (show the NEW page)
+* Create (accept the NEW submission and save it)
+* Edit (show the EDIT page)
+* Update (accept the EDITed submission and save it)
+* Destroy (do the delete)
 
 
 
