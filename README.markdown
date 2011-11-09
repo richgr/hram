@@ -25,6 +25,7 @@ Destroy (do the delete)
 ## VIEWS IN DETAIL
 ----
 __Index-List__
+
 * All postings (by category, by time)
   * available to everyone
   * available to this user
@@ -50,6 +51,7 @@ __Index-List__
   * by El/Md/Sr - age/grade/category
   
 __Show__ (show available and booked bookings)
+
 * A posting (Supply/TASupply/Teacher/TA/Admin/Assistant/SysAdmin)
 * A not-available day (Supply/TASupply/SysAdmin)
 * A person (Supply/TASupply/Teacher/TA/Admin/Assistant/SysAdmin)
@@ -57,6 +59,7 @@ __Show__ (show available and booked bookings)
 * A school (Admin/SysAdmin)  
   
 __New-Create/Edit-Update/Delete-Destroy__
+
 * A posting (Supply/TASupply/Teacher/TA/Admin/Assistant/SysAdmin)
 * A not-available day (Supply/TASupply/SysAdmin)
 * A person (Supply/TASupply/Teacher/TA/Admin/Assistant/SysAdmin)
