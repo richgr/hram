@@ -4,18 +4,18 @@ This system is designed to be non-specific about the allocation of humans and re
 
 The __delimiters__ will be:
 
-1 Thing Classes
+* Thing Classes
   1 __User__ (Someone who logs in to makes or breaks Allocations of Things.  May also be a Thing [see below].)
   2 __Thing__ (Something that can be allocated: a person, object, room, cyberspace location, body of knowledge, etc.)
   3 __Space__ (Somewhere to which a thing can be allocated: a place albeit physical, cyber, imaginary, etc.  May also be a Thing.)
   4 __Time__ (Some finite time when the allocation begins and ends)
-2 Relationship Possibilities
+* Relationship Possibilities
   1 __Privilege__ (Some restriction placed on a User with regard to Things or Categories [see below])
   2 __Category__ (Some groupings of Things)
   3 __Preference__ (Some rankings of Things or Categories)
   4 __Qualification__ (Some requirements of Things being Allocated)
   5 __Review__ (Some ratings of Things or Allocation transactions [see below])
-3 Allocation States
+* Allocation States
   1 __Availability__ (unrequested and unassigned Things [nil Allocation])
   2 __Opportunity__ (requested but unassigned Allocations [pending Allocation])
   3 __Override__ (unrequested and assigned Allocations [manual-override Allocation])
