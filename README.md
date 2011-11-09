@@ -4,17 +4,17 @@ This system is designed to be non-specific about the allocation of humans and re
 
 This will include discussions of:
 
-* Things (human, physical, knowledge, etc.)
-* Time (must include a specific beginning and end)
-* Space (must include a physical space)
+* __Things__ (human, physical, knowledge, etc.)
+* __Time__ (must include a specific beginning and end)
+* __Space__ (must include a physical space)
 
 These can be associated in a number of ways:
 
-* Allocations (assignments of a Thing to a Time & Space)
-* Requests (desired assignments [holds] of a Thing [in a Time & Space or indefinite])
-* Opportunities (availability of a Thing [in a Time & Space or indefinite])
-* Priorities (rankings of Things, Requests or Opportunitys)
-* Reviews (ratings of a Thing or Allocation)
+* __Allocations__ (assignments of a Thing to a Time & Space)
+* __Requests__ (desired assignments [holds] of a Thing [in a Time & Space or indefinite])
+* __Opportunities__ (availability of a Thing [in a Time & Space or indefinite])
+* __Priorities__ (rankings of Things, Requests or Opportunitys)
+* __Reviews__ (ratings of a Thing or Allocation)
 
 These can be controlled based on `Read/Write` or `Read-Only` permissions that are:
 
