@@ -3,11 +3,13 @@
 This system is designed to be non-specific about the allocation of humans and resources (physical, knowledge, etc.).  It could (theoretically) be used for more than this, but we had to draw the line somewhere.
 
 This will include discussions of:
+
 * Things (human, physical, knowledge, etc.)
 * Time (must include a specific beginning and end)
 * Space (must include a physical space)
 
 These can be associated in a number of ways:
+
 * Allocations (assignments of a Thing to a Time & Space)
 * Requests (desired assignments [holds] of a Thing [in a Time & Space or indefinite])
 * Opportunities (availability of a Thing [in a Time & Space or indefinite])
@@ -15,6 +17,7 @@ These can be associated in a number of ways:
 * Reviews (ratings of a Thing or Allocation)
 
 These can be controlled based on `Read/Write` or `Read-Only` permissions that are:
+
 * System-wide
 * Subset only (e.g. within a building)
 * Individual access
