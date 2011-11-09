@@ -25,16 +25,18 @@ The __delimiters__ will be:
 
 ## BREAKDOWN OF TASKS
 
-### VIEWS (i.e. Displays)
 ----
+### VIEWS (i.e. Displays)
+
 * __Index__ (list of things)
 * __Show__ (display a things)
 * __New__ (create a thing)
 * __Edit__ (edit a thing)
 
 
-### ACTIONS (i.e. Requests)
 ----
+### ACTIONS (i.e. Requests)
+
 * __Index__ (display a list of things)
 * __Show__ (display a thing )
 * __New__ (display the "new thing" form - so it can be entered)
