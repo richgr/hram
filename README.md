@@ -2,36 +2,37 @@
 
 This system is designed to be non-specific about the allocation of humans and resources (physical, knowledge, etc.).  It could (theoretically) be used for more than this, but we had to draw the line somewhere.
 
-This will include discussions of:
+The __delimiters__ will be:
 
-* __Things__ (human, physical, knowledge, etc.)
-* __Time__ (must include a specific beginning and end)
-* __Space__ (must include a physical space)
+1 Thing Classes
+  1 __User__ (Someone who logs in to makes or breaks Allocations of Things.  May also be a Thing [see below].)
+  2 __Thing__ (Something that can be allocated: a person, object, room, cyberspace location, body of knowledge, etc.)
+  3 __Space__ (Somewhere to which a thing can be allocated: a place albeit physical, cyber, imaginary, etc.  May also be a Thing.)
+  4 __Time__ (Some finite time when the allocation begins and ends)
+2 Relationship Possibilities
+  1 __Privilege__ (Some restriction placed on a User with regard to Things or Categories [see below])
+  2 __Category__ (Some groupings of Things)
+  3 __Preference__ (Some rankings of Things or Categories)
+  4 __Qualification__ (Some requirements of Things being Allocated)
+  5 __Review__ (Some ratings of Things or Allocation transactions [see below])
+3 Allocation States
+  1 __Availability__ (unrequested and unassigned Things [nil Allocation])
+  2 __Opportunity__ (requested but unassigned Allocations [pending Allocation])
+  3 __Override__ (unrequested and assigned Allocations [manual-override Allocation])
+  4 __Booking__ (requested and assigned Allocations [expected-process Allocation])
 
-These can be associated in a number of ways:
 
-* __Allocations__ (assignments of a Thing to a Time & Space)
-* __Requests__ (desired assignments [holds] of a Thing [in a Time & Space or indefinite])
-* __Opportunities__ (availability of a Thing [in a Time & Space or indefinite])
-* __Priorities__ (rankings of Things, Requests or Opportunitys)
-* __Reviews__ (ratings of a Thing or Allocation)
+## BREAKDOWN OF TASKS
 
-These can be controlled based on `Read/Write` or `Read-Only` permissions that are:
-
-* System-wide
-* Subset only (e.g. within a building)
-* Individual access
-
-
-## VIEWS (i.e. Displays)
+### VIEWS (i.e. Displays)
 ----
-* Index (lists of things)
-* Show (display a things)
-* New (create a thing)
-* Edit (edit a thing)
+* __Index__ (list of things)
+* __Show__ (display a things)
+* __New__ (create a thing)
+* __Edit__ (edit a thing)
 
 
-## ACTIONS (i.e. Requests)
+### ACTIONS (i.e. Requests)
 ----
 * Index (display a list of things)
 * Show (display a thing )
@@ -42,60 +43,5 @@ These can be controlled based on `Read/Write` or `Read-Only` permissions that ar
 * Destroy (accept the delete request and delete it)
 * Batch Create (accept a list of new submissions and save them)
 * Batch Update (accept a list of edited submissions and save them)
-* Batch Download (request a list of things)
-
-
-## VIEWS IN DETAIL
-----
-__Index-List__
-
-* Things
-* Times
-* Spaces
-* Allocations
-* Requests
-* Opportunities
-* Priorities
-* Reviews
-
-
-Postings (by category, by time)
-  * available to everyone
-  * available to this user
-  * booked by this user
-    * per day
-    * per school
-    * per day
-    * per week
-    * per month (calendar)
-    * per 3-months (calendar)
-* All not-available days
-  * by person
-* All people (by role)
-  * system-wide Administrators
-  * system-wide viewers
-  * school Administrators
-  * school Administrative Assistants
-  * Supply members
-  * staff members
-* All schools
-  * by district
-  * by area
-  * by El/Md/Sr - age/grade/category
-  
-__Show__ (show available and booked bookings)
-
-* A posting (Supply/TASupply/Teacher/TA/Admin/Assistant/SysAdmin)
-* A not-available day (Supply/TASupply/SysAdmin)
-* A person (Supply/TASupply/Teacher/TA/Admin/Assistant/SysAdmin)
-* A preferred school (Supply/TASupply/SysAdmin)
-* A school (Admin/SysAdmin)  
-  
-__New-Create/Edit-Update/Delete-Destroy__
-
-* A posting (Supply/TASupply/Teacher/TA/Admin/Assistant/SysAdmin)
-* A not-available day (Supply/TASupply/SysAdmin)
-* A person (Supply/TASupply/Teacher/TA/Admin/Assistant/SysAdmin)
-* A preferred school (Supply/TASupply/SysAdmin)
-* A school (Admin/SysAdmin)
+* Batch Download (output a list of things)
 
